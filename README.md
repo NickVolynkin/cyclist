@@ -105,7 +105,7 @@ cyclist_add_tail (new, &head);
 cyclist_add_tail_safe (new, &head, &save);
 // add a new head entry
 cyclist_add (new, &head);
-// add a new entry to tail in foreach_..._safe () { ... } loops
+// add a new entry to head in foreach_..._safe () { ... } loops
 cyclist_add_safe (new, &head, &save);
 // add a new entry after old
 cyclist_insert (new, old);
