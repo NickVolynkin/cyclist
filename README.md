@@ -8,8 +8,7 @@ This is an attempt to answer these lines from the
 [linux-dll]: https://github.com/torvalds/linux/blob/master/include/linux/list.h
 
     * Double linked lists with a single pointer list head.
-    * Mostly useful for hash tables where the two pointer list head is
-    * too wasteful.
+    * Mostly useful for hash tables where the two pointer list head is too wasteful.
     * You lose the ability to access the tail in O(1).
 
 Is it good? I don't know.
